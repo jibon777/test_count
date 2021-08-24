@@ -1,0 +1,9 @@
+redis:
+    image: redis:3.0.5
+
+app:
+    image: test_count
+    links:
+    - "redis:redis"
+    ports:
+    - "80"
