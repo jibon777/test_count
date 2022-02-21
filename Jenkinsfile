@@ -1,7 +1,7 @@
 pipeline {
 environment {
 imagename = "jibon/testcount"
-registryCredential = 'jibon'
+registryCredential = 'docker-jibon'
 dockerImage = ''
 }
 agent any
